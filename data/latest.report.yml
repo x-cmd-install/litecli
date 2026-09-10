@@ -7,7 +7,7 @@ about:
   latestVersion: "v1.17.1"
   latestRelease: "v1.17.1"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T21:41:32Z
+  collectedAt: 2026-09-10T22:32:18Z
 timeline:
   created: 2018-05-13
   lastCommit: 2026-06-07
@@ -83,7 +83,7 @@ total:
   commit: 577
 ---
 path: /home/runner/.x-repo/github.com/dbcli/litecli
-collectedAt: 2026-09-10T21:41:35Z
+collectedAt: 2026-09-10T22:32:20Z
 loc:
   Python:
     code: 5903
