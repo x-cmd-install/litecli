@@ -12,6 +12,28 @@ CLI for SQLite Databases with auto-completion and syntax highlighting
 x install litecli
 ```
 
+## Code insight
+
+Total: **5,995** lines of code across **46** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Python | 5,903 | 338 | 1,285 | 38 |
+| Toml | 67 | 0 | 11 | 1 |
+| Ini | 17 | 0 | 3 | 1 |
+| Autoconf | 8 | 0 | 0 | 1 |
+| Markdown | 0 | 322 | 194 | 5 |
+
+## OpenSSF Scorecard
+
+Overall score: **4 / 10**
+
+Lowest-scoring checks:
+
+- **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+
 ## Source
 
 - **Upstream**: <https://github.com/dbcli/litecli>
@@ -36,30 +58,28 @@ x install litecli
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 2 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 3 | 0 | 3 | 0 |
 | 90d | 2026-06-12 | 0 | 0 | 6 | 0 | 4 | 0 |
+| last180d | 2026-03-14 | 0 | 2 | 8 | 0 | 5 | 4 |
 | 360d | 2025-09-15 | 2 | 9 | 8 | 4 | 9 | 33 |
+| last720d | 2024-09-20 | 12 | 38 | 8 | 18 | 13 | 208 |
 
-## Code size
+## Distribution status
 
-Total: **5,995** lines of code across **46** files in the top 5 languages.
+Reported by **60** distros on [repology.org](https://repology.org/project/litecli). **21** are ✅ on the latest upstream release, **35** are ⚠️ on an older version.
 
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| Python | 5,903 | 338 | 1,285 | 38 |
-| Toml | 67 | 0 | 11 | 1 |
-| Ini | 17 | 0 | 3 | 1 |
-| Autoconf | 8 | 0 | 0 | 1 |
-| Markdown | 0 | 322 | 194 | 5 |
-
-## OpenSSF Scorecard
-
-Overall score: **4 / 10**
-
-Lowest-scoring checks:
-
-- **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.17.1` | ✅ latest |
+| Debian 14 | `1.17.1` | ✅ latest |
+| Debian 13 | `1.15.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.17.1` | ✅ latest |
+| Ubuntu 24.04 LTS | `1.10.0` | ⚠️ outdated |
+| Homebrew | `1.17.1` | ✅ latest |
+| Fedora rawhide | `1.17.1` | ✅ latest |
+| Nix unstable | `1.17.1` | ✅ latest |
+| Void | `1.17.1` | ✅ latest |
+| Alpine edge | `1.17.1` | ✅ latest |
 
 ## Improve this data
 
@@ -70,4 +90,4 @@ Install metadata for litecli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T16:47:49Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T21:41:43Z._
