@@ -1,5 +1,18 @@
-- repo: debian_12
-  subrepo: bookworm/main
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: litecli
+  binnames:
+    - litecli
+  visiblename: litecli
+  version: 1.17.1
+  origversion: 1.17.1-2
+  status: newest
+  maintainers:
+    - daniel@debian.org
+  categories:
+    - misc
+- repo: raspbian_oldstable
+  subrepo: main
   srcname: litecli
   binnames:
     - litecli
@@ -11,6 +24,71 @@
     - daniel.baumann@progress-linux.org
   categories:
     - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: litecli
+  binnames:
+    - litecli
+  visiblename: litecli
+  version: 1.15.0
+  origversion: 1.15.0-2
+  status: outdated
+  maintainers:
+    - daniel@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: litecli
+  binnames:
+    - litecli
+  visiblename: litecli
+  version: 1.17.1
+  origversion: 1.17.1-2
+  status: newest
+  maintainers:
+    - daniel@debian.org
+  categories:
+    - misc
+- repo: alpine_3_19
+  subrepo: community
+  srcname: litecli
+  binname: litecli
+  visiblename: litecli
+  version: 1.10.0
+  origversion: 1.10.0-r0
+  status: outdated
+  summary: CLI for SQLite Databases with auto-completion and syntax highlighting
+  maintainers:
+    - folliekazetani@protonmail.com
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_19
+  subrepo: community
+  srcname: litecli
+  binname: litecli-pyc
+  visiblename: litecli-pyc
+  version: 1.10.0
+  origversion: 1.10.0-r0
+  status: outdated
+  summary: Precompiled Python bytecode for litecli
+  maintainers:
+    - folliekazetani@protonmail.com
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_20
+  subrepo: community
+  srcname: litecli
+  binname: litecli
+  visiblename: litecli
+  version: 1.11.0
+  origversion: 1.11.0-r0
+  status: outdated
+  summary: CLI for SQLite Databases with auto-completion and syntax highlighting
+  maintainers:
+    - folliekazetani@protonmail.com
+  licenses:
+    - BSD-3-Clause
 - repo: alpine_3_20
   subrepo: community
   srcname: litecli
@@ -72,6 +150,19 @@
   origversion: 1.15.0-r0
   status: outdated
   summary: Precompiled Python bytecode for litecli
+  maintainers:
+    - folliekazetani@protonmail.com
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_23
+  subrepo: community
+  srcname: litecli
+  binname: litecli
+  visiblename: litecli
+  version: 1.17.0
+  origversion: 1.17.0-r0
+  status: outdated
+  summary: CLI for SQLite Databases with auto-completion and syntax highlighting
   maintainers:
     - folliekazetani@protonmail.com
   licenses:
@@ -153,19 +244,31 @@
     - andrejr@aur
   licenses:
     - BSD
-- repo: alpine_3_23
-  subrepo: community
-  srcname: litecli
-  binname: litecli
-  visiblename: litecli
-  version: 1.17.0
-  origversion: 1.17.0-r0
-  status: outdated
-  summary: CLI for SQLite Databases with auto-completion and syntax highlighting
+- repo: aur
+  srcname: litecli-git
+  binname: litecli-git
+  visiblename: litecli-git
+  version: v1.13.0.r195.g6a3e595
+  origversion: v1.13.0.r195.g6a3e595-1
+  status: rolling
+  summary: A command-line client for SQLite databases that has auto-completion and syntax highlighting.
   maintainers:
-    - folliekazetani@protonmail.com
+    - andrejr@aur
   licenses:
-    - BSD-3-Clause
+    - BSD
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: litecli
+  binnames:
+    - litecli
+  visiblename: litecli
+  version: 1.9.0
+  origversion: 1.9.0-2
+  status: outdated
+  maintainers:
+    - daniel.baumann@progress-linux.org
+  categories:
+    - misc
 - repo: debian_13
   subrepo: trixie/main
   srcname: litecli
@@ -179,72 +282,6 @@
     - daniel@debian.org
   categories:
     - misc
-- repo: aur
-  srcname: litecli-git
-  binname: litecli-git
-  visiblename: litecli-git
-  version: v1.13.0.r195.g6a3e595
-  origversion: v1.13.0.r195.g6a3e595-1
-  status: rolling
-  summary: A command-line client for SQLite databases that has auto-completion and syntax highlighting.
-  maintainers:
-    - andrejr@aur
-  licenses:
-    - BSD
-- repo: alpine_3_20
-  subrepo: community
-  srcname: litecli
-  binname: litecli
-  visiblename: litecli
-  version: 1.11.0
-  origversion: 1.11.0-r0
-  status: outdated
-  summary: CLI for SQLite Databases with auto-completion and syntax highlighting
-  maintainers:
-    - folliekazetani@protonmail.com
-  licenses:
-    - BSD-3-Clause
-- repo: fedora_40
-  subrepo: release
-  srcname: litecli
-  binnames:
-    - litecli
-    - python3-litecli
-  visiblename: litecli
-  version: 1.9.0
-  origversion: 1.9.0-6.fc40
-  status: outdated
-  summary: CLI for SQLite databases
-  licenses:
-    - BSD
-  categories:
-    - Unspecified
-- repo: alpine_3_19
-  subrepo: community
-  srcname: litecli
-  binname: litecli
-  visiblename: litecli
-  version: 1.10.0
-  origversion: 1.10.0-r0
-  status: outdated
-  summary: CLI for SQLite Databases with auto-completion and syntax highlighting
-  maintainers:
-    - folliekazetani@protonmail.com
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_19
-  subrepo: community
-  srcname: litecli
-  binname: litecli-pyc
-  visiblename: litecli-pyc
-  version: 1.10.0
-  origversion: 1.10.0-r0
-  status: outdated
-  summary: Precompiled Python bytecode for litecli
-  maintainers:
-    - folliekazetani@protonmail.com
-  licenses:
-    - BSD-3-Clause
 - repo: debian_14
   subrepo: forky/main
   srcname: litecli
@@ -271,19 +308,6 @@
     - daniel@debian.org
   categories:
     - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: litecli
-  binnames:
-    - litecli
-  visiblename: litecli
-  version: 1.17.1
-  origversion: 1.17.1-2
-  status: newest
-  maintainers:
-    - daniel@debian.org
-  categories:
-    - misc
 - repo: fedora_39
   subrepo: release
   srcname: litecli
@@ -293,6 +317,21 @@
   visiblename: litecli
   version: 1.9.0
   origversion: 1.9.0-4.fc39
+  status: outdated
+  summary: CLI for SQLite databases
+  licenses:
+    - BSD
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: release
+  srcname: litecli
+  binnames:
+    - litecli
+    - python3-litecli
+  visiblename: litecli
+  version: 1.9.0
+  origversion: 1.9.0-6.fc40
   status: outdated
   summary: CLI for SQLite databases
   licenses:
@@ -614,45 +653,6 @@
     - daniel@debian.org
   categories:
     - database
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: litecli
-  binnames:
-    - litecli
-  visiblename: litecli
-  version: 1.9.0
-  origversion: 1.9.0-2
-  status: outdated
-  maintainers:
-    - daniel.baumann@progress-linux.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: litecli
-  binnames:
-    - litecli
-  visiblename: litecli
-  version: 1.15.0
-  origversion: 1.15.0-2
-  status: outdated
-  maintainers:
-    - daniel@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: litecli
-  binnames:
-    - litecli
-  visiblename: litecli
-  version: 1.17.1
-  origversion: 1.17.1-2
-  status: newest
-  maintainers:
-    - daniel@debian.org
-  categories:
-    - misc
 - repo: termux
   srcname: litecli
   binname: litecli
