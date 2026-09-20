@@ -4,7 +4,7 @@
 
 CLI for SQLite Databases with auto-completion and syntax highlighting
 
-![litecli](https://repo.x-cmd.io/litecli.svg)
+[![x-cmd/install — litecli Code Quality Monitoring Repo Card](https://repo.x-cmd.io/litecli.svg)](https://x-cmd.com/install/litecli)
 
 ## Install
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-20 | 0 | 0 | 3 | 0 | 3 | 0 |
-| 90d | 2026-06-20 | 0 | 0 | 3 | 0 | 4 | 0 |
-| last180d | 2026-03-22 | 0 | 2 | 8 | 0 | 5 | 4 |
-| 360d | 2025-09-23 | 2 | 9 | 8 | 4 | 8 | 33 |
-| last720d | 2024-09-28 | 12 | 37 | 8 | 18 | 13 | 206 |
+| 30d | 2026-08-21 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-22 | 0 | 0 | 3 | 0 | 3 | 0 |
+| 90d | 2026-06-22 | 0 | 0 | 3 | 0 | 4 | 0 |
+| last180d | 2026-03-24 | 0 | 2 | 8 | 0 | 5 | 4 |
+| 360d | 2025-09-25 | 2 | 9 | 8 | 4 | 8 | 33 |
+| last720d | 2024-09-30 | 12 | 37 | 8 | 18 | 13 | 206 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for litecli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T04:52:46Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T05:07:24Z._
