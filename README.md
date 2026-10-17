@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,317 · **Forks**: 99 · **Open issues**: 135 · **Contributors**: 51
+- **Stars**: 3,317 · **Forks**: 101 · **Open issues**: 135 · **Contributors**: 51
 
 ## Totals (cumulative)
 
-- **Releases**: 15 · **Merged PRs**: 114 · **Open PRs**: 9 · **Closed issues**: 100 · **Open issues**: 35 · **Commits**: 577
+- **Releases**: 15 · **Merged PRs**: 114 · **Open PRs**: 11 · **Closed issues**: 100 · **Open issues**: 35 · **Commits**: 577
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-16 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-08-17 | 0 | 0 | 1 | 0 | 0 | 0 |
-| 90d | 2026-07-18 | 0 | 0 | 4 | 3 | 0 | 0 |
-| last180d | 2026-04-19 | 0 | 2 | 9 | 3 | 2 | 4 |
-| 360d | 2025-10-21 | 1 | 9 | 9 | 7 | 4 | 31 |
-| last720d | 2024-10-26 | 12 | 37 | 9 | 19 | 9 | 206 |
+| 30d | 2026-09-17 | 0 | 0 | 3 | 0 | 0 | 0 |
+| last60d | 2026-08-18 | 0 | 0 | 3 | 0 | 0 | 0 |
+| 90d | 2026-07-19 | 0 | 0 | 6 | 3 | 0 | 0 |
+| last180d | 2026-04-20 | 0 | 2 | 11 | 3 | 2 | 4 |
+| 360d | 2025-10-22 | 1 | 9 | 11 | 6 | 4 | 31 |
+| last720d | 2024-10-27 | 12 | 37 | 11 | 19 | 9 | 206 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for litecli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261016.yml` · 2026-10-16T04:36:09Z._
+_Snapshot: `data/card/261017.yml` · 2026-10-17T04:25:33Z._
