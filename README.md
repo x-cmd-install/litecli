@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,317 · **Forks**: 101 · **Open issues**: 135 · **Contributors**: 51
+- **Stars**: 3,316 · **Forks**: 101 · **Open issues**: 135 · **Contributors**: 51
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 0 | 0 | 3 | 0 | 0 | 0 |
-| last60d | 2026-08-27 | 0 | 0 | 3 | 0 | 0 | 0 |
-| 90d | 2026-07-28 | 0 | 0 | 6 | 0 | 0 | 0 |
-| last180d | 2026-04-29 | 0 | 2 | 11 | 3 | 1 | 4 |
-| 360d | 2025-10-31 | 1 | 9 | 11 | 6 | 4 | 31 |
-| last720d | 2024-11-05 | 12 | 37 | 11 | 19 | 9 | 206 |
+| 30d | 2026-09-27 | 0 | 0 | 3 | 0 | 0 | 0 |
+| last60d | 2026-08-28 | 0 | 0 | 3 | 0 | 0 | 0 |
+| 90d | 2026-07-29 | 0 | 0 | 6 | 0 | 0 | 0 |
+| last180d | 2026-04-30 | 0 | 2 | 11 | 3 | 1 | 4 |
+| 360d | 2025-11-01 | 1 | 9 | 11 | 6 | 4 | 31 |
+| last720d | 2024-11-06 | 12 | 37 | 11 | 19 | 9 | 206 |
 
 ## Distribution status
 
@@ -90,4 +90,4 @@ Install metadata for litecli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261026.yml` · 2026-10-26T04:46:40Z._
+_Snapshot: `data/card/261027.yml` · 2026-10-27T05:08:17Z._
