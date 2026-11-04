@@ -30,8 +30,8 @@ x install litecli
 
 评分最低的几项:
 
-- **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## 源代码
@@ -47,22 +47,22 @@ x install litecli
 
 ## 流行度
 
-- **Star**: 3,321 · **Fork**: 101 · **开放 issue**: 135 · **贡献者**: 51
+- **Star**: 3,321 · **Fork**: 102 · **开放 issue**: 135 · **贡献者**: 51
 
 ## 累计统计
 
-- **发布数**: 15 · **已合并 PR**: 114 · **开放 PR**: 11 · **已关闭 issue**: 100 · **开放 issue**: 35 · **提交数**: 577
+- **发布数**: 15 · **已合并 PR**: 114 · **开放 PR**: 12 · **已关闭 issue**: 100 · **开放 issue**: 35 · **提交数**: 577
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 0 | 0 | 2 | 0 | 0 | 0 |
-| last60d | 2026-09-04 | 0 | 0 | 3 | 0 | 0 | 0 |
-| 90d | 2026-08-05 | 0 | 0 | 5 | 0 | 0 | 0 |
-| last180d | 2026-05-07 | 0 | 2 | 11 | 3 | 1 | 4 |
-| 360d | 2025-11-08 | 1 | 9 | 11 | 6 | 3 | 31 |
-| last720d | 2024-11-13 | 11 | 36 | 11 | 17 | 9 | 200 |
+| 30d | 2026-10-05 | 0 | 0 | 3 | 0 | 0 | 0 |
+| last60d | 2026-09-05 | 0 | 0 | 4 | 0 | 0 | 0 |
+| 90d | 2026-08-06 | 0 | 0 | 6 | 0 | 0 | 0 |
+| last180d | 2026-05-08 | 0 | 2 | 12 | 3 | 1 | 4 |
+| 360d | 2025-11-09 | 1 | 9 | 12 | 6 | 3 | 31 |
+| last720d | 2024-11-14 | 11 | 35 | 12 | 17 | 9 | 200 |
 
 ## 发行版状态
 
@@ -90,4 +90,4 @@ litecli 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261103.yml` · 2026-11-03T06:50:34Z._
+_数据快照: `data/card/261104.yml` · 2026-11-04T06:25:30Z._
