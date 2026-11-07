@@ -1,3 +1,29 @@
+- repo: raspbian_stable
+  subrepo: main
+  srcname: litecli
+  binnames:
+    - litecli
+  visiblename: litecli
+  version: 1.15.0
+  origversion: 1.15.0-2
+  status: outdated
+  maintainers:
+    - daniel@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: litecli
+  binnames:
+    - litecli
+  visiblename: litecli
+  version: 1.17.1
+  origversion: 1.17.1-3
+  status: newest
+  maintainers:
+    - daniel@debian.org
+  categories:
+    - misc
 - repo: alpine_3_19
   subrepo: community
   srcname: litecli
@@ -627,32 +653,6 @@
     - daniel.baumann@progress-linux.org
   categories:
     - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: litecli
-  binnames:
-    - litecli
-  visiblename: litecli
-  version: 1.15.0
-  origversion: 1.15.0-2
-  status: outdated
-  maintainers:
-    - daniel@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: litecli
-  binnames:
-    - litecli
-  visiblename: litecli
-  version: 1.17.1
-  origversion: 1.17.1-3
-  status: newest
-  maintainers:
-    - daniel@debian.org
-  categories:
-    - misc
 - repo: termux
   srcname: litecli
   binname: litecli
@@ -736,6 +736,19 @@
   visiblename: litecli
   version: 1.17.1
   origversion: 1.17.1-2
+  status: newest
+  maintainers:
+    - daniel@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
+  srcname: litecli
+  binnames:
+    - litecli
+  visiblename: litecli
+  version: 1.17.1
+  origversion: 1.17.1-3
   status: newest
   maintainers:
     - daniel@debian.org
