@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 0 | 0 | 3 | 0 | 0 | 0 |
-| last60d | 2026-09-09 | 0 | 0 | 4 | 0 | 0 | 0 |
-| 90d | 2026-08-10 | 0 | 0 | 6 | 0 | 0 | 0 |
-| last180d | 2026-05-12 | 0 | 2 | 12 | 3 | 1 | 4 |
-| 360d | 2025-11-13 | 1 | 9 | 12 | 6 | 3 | 31 |
-| last720d | 2024-11-18 | 11 | 35 | 12 | 17 | 9 | 200 |
+| 30d | 2026-10-10 | 0 | 0 | 3 | 0 | 0 | 0 |
+| last60d | 2026-09-10 | 0 | 0 | 4 | 0 | 0 | 0 |
+| 90d | 2026-08-11 | 0 | 0 | 6 | 0 | 0 | 0 |
+| last180d | 2026-05-13 | 0 | 2 | 12 | 3 | 1 | 4 |
+| 360d | 2025-11-14 | 1 | 9 | 12 | 6 | 3 | 31 |
+| last720d | 2024-11-19 | 11 | 35 | 12 | 17 | 9 | 200 |
 
 ## Distribution status
 
@@ -90,4 +90,4 @@ Install metadata for litecli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T06:06:51Z._
+_Snapshot: `data/card/261109.yml` · 2026-11-09T06:23:54Z._
