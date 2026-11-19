@@ -1,3 +1,42 @@
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: litecli
+  binnames:
+    - litecli
+  visiblename: litecli
+  version: 1.15.0
+  origversion: 1.15.0-2
+  status: outdated
+  maintainers:
+    - daniel@debian.org
+  categories:
+    - misc
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: litecli
+  binnames:
+    - litecli
+  visiblename: litecli
+  version: 1.15.0
+  origversion: 1.15.0-2
+  status: outdated
+  maintainers:
+    - daniel@debian.org
+  categories:
+    - database
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: litecli
+  binnames:
+    - litecli
+  visiblename: litecli
+  version: 1.9.0
+  origversion: 1.9.0-2
+  status: outdated
+  maintainers:
+    - daniel.baumann@progress-linux.org
+  categories:
+    - misc
 - repo: raspbian_stable
   subrepo: main
   srcname: litecli
@@ -13,6 +52,52 @@
     - misc
 - repo: raspbian_testing
   subrepo: main
+  srcname: litecli
+  binnames:
+    - litecli
+  visiblename: litecli
+  version: 1.17.1
+  origversion: 1.17.1-3
+  status: newest
+  maintainers:
+    - daniel@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: litecli
+  binnames:
+    - litecli
+  visiblename: litecli
+  version: 1.15.0
+  origversion: 1.15.0-2
+  status: outdated
+  maintainers:
+    - daniel@debian.org
+  categories:
+    - misc
+- repo: homebrew
+  srcname: litecli
+  visiblename: litecli
+  version: 1.17.1
+  origversion: null
+  status: newest
+  summary: CLI for SQLite Databases with auto-completion and syntax highlighting
+- repo: kali_rolling
+  subrepo: main
+  srcname: litecli
+  binnames:
+    - litecli
+  visiblename: litecli
+  version: 1.17.1
+  origversion: 1.17.1-3
+  status: newest
+  maintainers:
+    - daniel@debian.org
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: litecli
   binnames:
     - litecli
@@ -282,19 +367,6 @@
     - daniel@debian.org
   categories:
     - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: litecli
-  binnames:
-    - litecli
-  visiblename: litecli
-  version: 1.17.1
-  origversion: 1.17.1-3
-  status: newest
-  maintainers:
-    - daniel@debian.org
-  categories:
-    - misc
 - repo: fedora_39
   subrepo: release
   srcname: litecli
@@ -383,6 +455,20 @@
     - BSD-3-Clause
   categories:
     - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: litecli
+  binnames:
+    - litecli
+  visiblename: litecli
+  version: 1.17.1
+  origversion: 1.17.1-3.fc45
+  status: newest
+  summary: CLI for SQLite Databases with auto-completion and syntax highlighting
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Unspecified
 - repo: fedora_rawhide
   subrepo: development
   srcname: litecli
@@ -444,26 +530,6 @@
   origversion: null
   status: outdated
   summary: CLI for SQLite databases
-- repo: homebrew
-  srcname: litecli
-  visiblename: litecli
-  version: 1.17.1
-  origversion: null
-  status: newest
-  summary: CLI for SQLite Databases with auto-completion and syntax highlighting
-- repo: kali_rolling
-  subrepo: main
-  srcname: litecli
-  binnames:
-    - litecli
-  visiblename: litecli
-  version: 1.17.1
-  origversion: 1.17.1-3
-  status: newest
-  maintainers:
-    - daniel@debian.org
-  categories:
-    - misc
 - repo: liguros_stable
   srcname: dev-db/litecli
   visiblename: dev-db/litecli
@@ -601,58 +667,6 @@
     - nixos@scriptkiddi.de
   licenses:
     - BSD-3-Clause
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: litecli
-  binnames:
-    - litecli
-  visiblename: litecli
-  version: 1.15.0
-  origversion: 1.15.0-2
-  status: outdated
-  maintainers:
-    - daniel@debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: litecli
-  binnames:
-    - litecli
-  visiblename: litecli
-  version: 1.15.0
-  origversion: 1.15.0-2
-  status: outdated
-  maintainers:
-    - daniel@debian.org
-  categories:
-    - misc
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: litecli
-  binnames:
-    - litecli
-  visiblename: litecli
-  version: 1.15.0
-  origversion: 1.15.0-2
-  status: outdated
-  maintainers:
-    - daniel@debian.org
-  categories:
-    - database
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: litecli
-  binnames:
-    - litecli
-  visiblename: litecli
-  version: 1.9.0
-  origversion: 1.9.0-2
-  status: outdated
-  maintainers:
-    - daniel.baumann@progress-linux.org
-  categories:
-    - misc
 - repo: termux
   srcname: litecli
   binname: litecli
